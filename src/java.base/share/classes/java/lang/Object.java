@@ -36,7 +36,7 @@ import jdk.internal.HotSpotIntrinsicCandidate;
  * @see     java.lang.Class
  * @since   1.0
  */
-public class Object {
+public class Object implements Serializable {
 
     private static native void registerNatives();
     static {
